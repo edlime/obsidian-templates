@@ -33,7 +33,7 @@ A collection of templates and scripts for [Obsidian.md](https://obsidian.md/).
 1. Put the templates in a dedicated folder in your vault
 2. Configure *Templater* to read this folder.
 3. In *Templater* settings, enable folder templates and add folders that you want a specific template to be triggered.
-4. Open `daily-template.md` and `<your-target-city>` with your target city, e.g. Paris.
+4. Open `daily-template.md` and replace `<your-target-city>` with your target city, e.g. Paris.
 
 ## Tips
 
