@@ -7,6 +7,7 @@ A collection of templates and scripts for [Obsidian.md](https://obsidian.md/).
 - Prompts to enter a title before a file is created (`people-template.md` and `meeting-template.md`)
 - Predefined frontmatter
 - *Yesterday* and *Tomorrow* links in `daily-template.md` that create the target file if it doesn't exist
+- Embeds current weather in `daily-template.md` using `wttr.in`
 
 ## Prerequisites
 
@@ -21,6 +22,7 @@ A collection of templates and scripts for [Obsidian.md](https://obsidian.md/).
 
 - [daily-template.md](./templates/daily-template.md)
   - Template for daily note-taking
+![Daily Notes Template](./assets/dts.png)
 - [meeting-template.md](./templates/meeting-template.md)
   - Template for meeting minutes
 - [person-template.md](./templates/person-template.md)
@@ -31,12 +33,10 @@ A collection of templates and scripts for [Obsidian.md](https://obsidian.md/).
 1. Put the templates in a dedicated folder in your vault
 2. Configure *Templater* to read this folder.
 3. In *Templater* settings, enable folder templates and add folders that you want a specific template to be triggered.
+4. Open `daily-template.md` and `<your-target-city>` with your target city, e.g. Paris.
 
 ## Tips
 
-Expand the template functionality by doing the following:
-
-- Add weather information on your daily notes templates using Templater script and [wttr.in](https://github.com/chubin/wttr.in)
 - Create dashboards and track your habits
 
 ## Notes
